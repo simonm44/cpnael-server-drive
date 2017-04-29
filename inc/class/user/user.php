@@ -5,7 +5,7 @@
         require('inc/class/MySQL/mysql.php');
         $MySQL = new MysqlTools;
 
-        if ($MySQL->MySQLAuth("localhost", "OjJDkmEeZ8kSCDd6", "y7YI3xOXUpak2CAZBaRZYXWc1ViFVlaxCNYMHhNh9nRYAc6zgrIRfAJdYQ8HbsSGvttfq2rcQZGZB4xBRj1zpiE0qoKstC2WqODTipLPcQUy7FM11y6eWrdM0yI8ejXd", "gestion.webmaker.fr")) {/* Good Job! */} else {echo "Error login MySQL !"; exit();}
+        if ($MySQL->MySQLAuth("localhost", "", "", "gestion.webmaker.fr")) {/* Good Job! */} else {echo "Error login MySQL !"; exit();}
 
     class user {
         public function key() {
